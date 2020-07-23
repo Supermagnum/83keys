@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Keyboard-ISO)(type KiCad)(uri ${KIPRJMOD}/Keyboard-ISO.pretty)(options "")(descr ""))
+)
