@@ -3,6 +3,7 @@ A 83 key keyboard, Norwegian QWERTY/DVORAK ISO style.
 MX switches should fit.
 It uses 83 1N4004-TP diodes and three LED's for caps lock,scroll lock, and QWERTY/DVORAK.
 It also needs a Female Db 25 connector.
+The connectors shield provides DC ground, and ground for the LED's.
 
 
 That makes it possible to connect it to a controller board using a Atmel AVR or ARM controller/processor, supported by QMK firmware.
