@@ -5,7 +5,7 @@ It uses 83 1N4004-TP diodes and three LED's for caps lock,scroll lock, and QWERT
 It also needs a Female Db 25 connector.
 
 
-That makes it possible to connect it to a controller board using a Atmel AVR or ARM controllers, supported by QMK firmware.
+That makes it possible to connect it to a controller board using a Atmel AVR or ARM controller/processor, supported by QMK firmware.
 AVR processors include the atmega32u4, atmega32u2, at90usb1286, and other processors from Atmel Corporation. 
 AVR processors are 8-bit MCUs that are designed to be easy to work with. 
 
