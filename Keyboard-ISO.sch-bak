@@ -152,10 +152,10 @@ $EndComp
 Wire Wire Line
 	8600 4400 8600 4600
 $Comp
-L Connector:Conn_01x01_Female J2
+L Connector:Conn_01x01_Female J3
 U 1 1 5F4352F7
 P 7400 5100
-F 0 "J2" H 7292 4875 50  0000 C CNN
+F 0 "J3" H 7292 4875 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 7292 4966 50  0000 C CNN
 F 2 "MountingHole:MountingHole_4.5mm_Pad" H 7400 5100 50  0001 C CNN
 F 3 "~" H 7400 5100 50  0001 C CNN
@@ -168,10 +168,10 @@ Connection ~ 8250 5100
 Wire Wire Line
 	8250 5100 8250 4900
 $Comp
-L Connector:Conn_01x01_Female J3
+L Connector:Conn_01x01_Female J5
 U 1 1 5F442015
 P 7400 5450
-F 0 "J3" H 7292 5225 50  0000 C CNN
+F 0 "J5" H 7292 5225 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 7292 5316 50  0000 C CNN
 F 2 "MountingHole:MountingHole_4.5mm_Pad" H 7400 5450 50  0001 C CNN
 F 3 "~" H 7400 5450 50  0001 C CNN
@@ -179,10 +179,10 @@ F 3 "~" H 7400 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J5
+L Connector:Conn_01x01_Female J4
 U 1 1 5F444A6B
 P 9550 5200
-F 0 "J5" H 9442 4975 50  0000 C CNN
+F 0 "J4" H 9442 4975 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 9442 5066 50  0000 C CNN
 F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9550 5200 50  0001 C CNN
 F 3 "~" H 9550 5200 50  0001 C CNN
@@ -190,10 +190,10 @@ F 3 "~" H 9550 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J4
+L Connector:Conn_01x01_Female J2
 U 1 1 5F444A76
 P 9550 4850
-F 0 "J4" H 9442 4625 50  0000 C CNN
+F 0 "J2" H 9442 4625 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 9442 4716 50  0000 C CNN
 F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9550 4850 50  0001 C CNN
 F 3 "~" H 9550 4850 50  0001 C CNN
