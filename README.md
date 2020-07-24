@@ -20,3 +20,6 @@ That excludes the controller board and the components needed for it.
 
 QMK is here:
 https://qmk.fm/
+
+The handwire folder contains files necessary to make the bottom,top and switch plates for those who want to handwire the keyboard.
+It should be compatible with Cherry Stabilizers. 
