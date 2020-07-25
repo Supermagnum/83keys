@@ -16,8 +16,17 @@ https://kicad-pcb.org/
 All footprints for the components needed for the keyboard is included in this GitHub.
 That excludes the Teensy++2.0 board and the components needed for it.
 
+Kicad footprints for Teensy 
+https://github.com/XenGi/teensy.pretty
+
+Kicad schematic symbols of Teensy modules:
+https://github.com/XenGi/teensy_library
+
 QMK is here:
 https://qmk.fm/
 
 The handwire folder contains files necessary to make the bottom,top and switch plates for those who want to handwire the keyboard.
 It should be compatible with Cherry Stabilizers. 
+
+I hope that the Teensy socket is wired up correctly.
+If not,please fork this repository and make the required changes.
