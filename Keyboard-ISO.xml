@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/haaken/Nedlastinger/tastatur/Keyboard-ISO/Keyboard-ISO.sch</source>
+    <date>lø. 25. juli 2020 kl. 12.05 +0200</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Keyboard-ISO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/matrix/" tstamps="/5F1E1773/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>Conn_01x01_Female</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4352F7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01_Female</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F442015</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01_Female</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F444A6B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Female</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F444A76</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1CE1C6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1CEE7E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1CF4DB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTL-4233 </value>
+      <footprint>Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFBCFA9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LTL-4233 </value>
+      <footprint>Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFBF679</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LTL-4233 </value>
+      <footprint>Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFCA159</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Teensy++2.0_(Arduino)</value>
+      <footprint>Teensy:Teensy2.0-pins-headers</footprint>
+      <libsource lib="Teensy" part="Teensy++2.0_(Arduino)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2BB3D3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F184505</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F186F89</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F189AD8</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F183FAF</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F206455</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2069AD</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F21A6CC</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F21A6D3</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F21A6DA</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F21A6E0</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F21A6E6</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F21A6EC</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221853</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22185A</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221861</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221867</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22186D</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221873</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22187A</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221881</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221888</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22188E</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F221894</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22189A</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A52E</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A534</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A53B</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A542</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A549</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A54F</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A555</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F22A55B</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2572F7</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2572FE</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257305</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Cherry_MX_1.50u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25730B</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257312</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25731A</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257321</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257328</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25732F</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257335</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25733B</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257341</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257348</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25734F</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257356</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25735C</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257362</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257368</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25736F</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257376</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25737D</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257383</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257389</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25738F</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F257396</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_Cherry_MX_1.50u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F25739C</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2573A3</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2573AA</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2573B1</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2573B7</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2573BD</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F2573C3</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3503E2</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3503E9</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3503F0</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_Cherry_MX_1.50u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3503F6</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3503FD</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350405</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35040C</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350413</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35041A</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350420</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350426</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35042C</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350433</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35043A</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350441</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350447</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35044D</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350453</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35045A</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350461</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350468</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35046E</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350474</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35047A</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350481</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_ISOEnter_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350487</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35048E</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350495</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35049C</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504A2</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504A8</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504AE</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504CF</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504D6</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504DD</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504E3</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504EA</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504F2</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F3504F9</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350500</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350507</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35050D</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350513</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350519</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350520</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350527</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35052E</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350534</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35053A</tstamp>
+    </comp>
+    <comp ref="SW57">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350540</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350547</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35054E</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350555</tstamp>
+    </comp>
+    <comp ref="SW58">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F35055B</tstamp>
+    </comp>
+    <comp ref="SW59">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350561</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA23</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA2A</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA31</tstamp>
+    </comp>
+    <comp ref="SW61">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA37</tstamp>
+    </comp>
+    <comp ref="SW62">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA3E</tstamp>
+    </comp>
+    <comp ref="SW63">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA46</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA4D</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA54</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA5B</tstamp>
+    </comp>
+    <comp ref="SW64">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA61</tstamp>
+    </comp>
+    <comp ref="SW65">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA67</tstamp>
+    </comp>
+    <comp ref="SW66">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA6D</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA74</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA7B</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA82</tstamp>
+    </comp>
+    <comp ref="SW67">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA88</tstamp>
+    </comp>
+    <comp ref="SW68">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA8E</tstamp>
+    </comp>
+    <comp ref="SW69">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA94</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BA9B</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BAA2</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BAA9</tstamp>
+    </comp>
+    <comp ref="SW70">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BAAF</tstamp>
+    </comp>
+    <comp ref="SW71">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BAB5</tstamp>
+    </comp>
+    <comp ref="SW72">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BABB</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BAC2</tstamp>
+    </comp>
+    <comp ref="SW73">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BAC8</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB10</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB17</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB1E</tstamp>
+    </comp>
+    <comp ref="SW74">
+      <value>SW_Cherry_MX_1.50u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB24</tstamp>
+    </comp>
+    <comp ref="SW75">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB2B</tstamp>
+    </comp>
+    <comp ref="SW76">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB33</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB3A</tstamp>
+    </comp>
+    <comp ref="D81">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB41</tstamp>
+    </comp>
+    <comp ref="D82">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB48</tstamp>
+    </comp>
+    <comp ref="SW77">
+      <value>SW_Cherry_MX_6.26u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB4E</tstamp>
+    </comp>
+    <comp ref="SW78">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB54</tstamp>
+    </comp>
+    <comp ref="SW79">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB5A</tstamp>
+    </comp>
+    <comp ref="D83">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB61</tstamp>
+    </comp>
+    <comp ref="D84">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB68</tstamp>
+    </comp>
+    <comp ref="D85">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB6F</tstamp>
+    </comp>
+    <comp ref="SW80">
+      <value>SW_Cherry_MX_1.50u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB75</tstamp>
+    </comp>
+    <comp ref="SW81">
+      <value>MX</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB7B</tstamp>
+    </comp>
+    <comp ref="SW82">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB81</tstamp>
+    </comp>
+    <comp ref="D86">
+      <value>1N4004-TP </value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB88</tstamp>
+    </comp>
+    <comp ref="SW83">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F36BB9C</tstamp>
+    </comp>
+    <comp ref="SW60">
+      <value>MX</value>
+      <footprint>tastatur:SW_Cherry_MX_1.00u_PCB-NO-LED</footprint>
+      <libsource lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur" description=""/>
+      <sheetpath names="/matrix/" tstamps="/5F1E1773/"/>
+      <tstamp>5F350567</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Keyboard-ISO-rescue" part="MX-NO-LED-tastatur">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MX-NO-LED-tastatur</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Teensy" part="Teensy++2.0_(Arduino)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy++2.0_(Arduino)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="27_PWM" type="BiDi"/>
+        <pin num="3" name="0_INT0_PWM" type="BiDi"/>
+        <pin num="4" name="1_INT1_PWM" type="BiDi"/>
+        <pin num="5" name="2_INT2_RX" type="BiDi"/>
+        <pin num="6" name="3_INT3_TX" type="BiDi"/>
+        <pin num="7" name="4" type="BiDi"/>
+        <pin num="8" name="5" type="BiDi"/>
+        <pin num="9" name="6_LED" type="BiDi"/>
+        <pin num="10" name="7" type="BiDi"/>
+        <pin num="11" name="8" type="BiDi"/>
+        <pin num="12" name="9" type="BiDi"/>
+        <pin num="13" name="10" type="BiDi"/>
+        <pin num="14" name="11" type="BiDi"/>
+        <pin num="15" name="12" type="BiDi"/>
+        <pin num="16" name="13" type="BiDi"/>
+        <pin num="17" name="14_PWM" type="BiDi"/>
+        <pin num="18" name="15_PWM" type="BiDi"/>
+        <pin num="19" name="16_PWM" type="BiDi"/>
+        <pin num="20" name="17" type="BiDi"/>
+        <pin num="21" name="+5V" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="RST" type="input"/>
+        <pin num="24" name="45_A7" type="BiDi"/>
+        <pin num="25" name="44_A6" type="BiDi"/>
+        <pin num="26" name="43_A5" type="BiDi"/>
+        <pin num="27" name="42_A4" type="BiDi"/>
+        <pin num="28" name="41_A3" type="BiDi"/>
+        <pin num="29" name="40_A2" type="BiDi"/>
+        <pin num="30" name="39_A1" type="BiDi"/>
+        <pin num="31" name="38_A0" type="BiDi"/>
+        <pin num="32" name="AREF" type="input"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="18_INT6" type="BiDi"/>
+        <pin num="35" name="19_INT7" type="BiDi"/>
+        <pin num="36" name="20" type="BiDi"/>
+        <pin num="37" name="21" type="BiDi"/>
+        <pin num="38" name="22" type="BiDi"/>
+        <pin num="39" name="23" type="BiDi"/>
+        <pin num="40" name="24_PWM" type="BiDi"/>
+        <pin num="41" name="25_PWM" type="BiDi"/>
+        <pin num="42" name="26_PWM" type="BiDi"/>
+        <pin num="43" name="+5V" type="power_in"/>
+        <pin num="44" name="28" type="BiDi"/>
+        <pin num="45" name="29" type="BiDi"/>
+        <pin num="46" name="30" type="BiDi"/>
+        <pin num="47" name="31" type="BiDi"/>
+        <pin num="48" name="32" type="BiDi"/>
+        <pin num="49" name="33" type="BiDi"/>
+        <pin num="50" name="34" type="BiDi"/>
+        <pin num="51" name="35" type="BiDi"/>
+        <pin num="52" name="ALE" type="input"/>
+        <pin num="~" name="36_INT4" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Keyboard-ISO-rescue">
+      <uri>/home/haaken/Nedlastinger/tastatur/Keyboard-ISO/Keyboard-ISO-rescue.lib</uri>
+    </library>
+    <library logical="Teensy">
+      <uri>/home/haaken/Nedlastinger/tastatur/teensy_library-master/teensy.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="4" name="COL1">
+      <node ref="D36" pin="1"/>
+      <node ref="D77" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="U1" pin="35"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="5" name="COL2">
+      <node ref="D65" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D78" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="6" name="COL3">
+      <node ref="D38" pin="1"/>
+      <node ref="D79" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D66" pin="1"/>
+      <node ref="U1" pin="37"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="7" name="COL4">
+      <node ref="D23" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D80" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad43)">
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad44)">
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad45)">
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad46)">
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad47)">
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad48)">
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad49)">
+      <node ref="U1" pin="49"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="22" name="COL8">
+      <node ref="D11" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D84" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="D71" pin="1"/>
+      <node ref="D27" pin="1"/>
+    </net>
+    <net code="23" name="COL7">
+      <node ref="D70" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D83" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="24" name="COL6">
+      <node ref="D41" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D82" pin="1"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="25" name="COL13">
+      <node ref="U1" pin="15"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="27" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="28" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="19"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad50)">
+      <node ref="U1" pin="50"/>
+    </net>
+    <net code="30" name="COL12">
+      <node ref="D47" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D75" pin="1"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="33" name="COL11">
+      <node ref="U1" pin="24"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D74" pin="1"/>
+    </net>
+    <net code="34" name="COL5">
+      <node ref="D56" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D81" pin="1"/>
+      <node ref="U1" pin="25"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="35" name="ROW6">
+      <node ref="SW83" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="SW75" pin="1"/>
+      <node ref="SW76" pin="1"/>
+      <node ref="SW74" pin="1"/>
+      <node ref="SW80" pin="1"/>
+      <node ref="SW81" pin="1"/>
+      <node ref="SW77" pin="1"/>
+      <node ref="SW78" pin="1"/>
+      <node ref="SW82" pin="1"/>
+      <node ref="SW79" pin="1"/>
+    </net>
+    <net code="36" name="ROW5">
+      <node ref="SW70" pin="1"/>
+      <node ref="SW68" pin="1"/>
+      <node ref="SW69" pin="1"/>
+      <node ref="SW64" pin="1"/>
+      <node ref="SW71" pin="1"/>
+      <node ref="SW72" pin="1"/>
+      <node ref="U1" pin="27"/>
+      <node ref="SW73" pin="1"/>
+      <node ref="SW63" pin="1"/>
+      <node ref="SW67" pin="1"/>
+      <node ref="SW61" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="SW65" pin="1"/>
+      <node ref="SW66" pin="1"/>
+    </net>
+    <net code="37" name="ROW4">
+      <node ref="SW55" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW49" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="SW58" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="SW53" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW50" pin="1"/>
+    </net>
+    <net code="38" name="ROW3">
+      <node ref="SW43" pin="1"/>
+      <node ref="SW46" pin="1"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="SW38" pin="1"/>
+      <node ref="SW39" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="SW40" pin="1"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad52)">
+      <node ref="U1" pin="52"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad51)">
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="45" name="ROW1">
+      <node ref="SW10" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW9" pin="1"/>
+    </net>
+    <net code="46" name="COL10">
+      <node ref="D29" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="D86" pin="1"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="47" name="COL9">
+      <node ref="U1" pin="8"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D85" pin="1"/>
+    </net>
+    <net code="48" name="ROW2">
+      <node ref="SW30" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="SW29" pin="1"/>
+      <node ref="SW28" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW17" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="SW32" pin="1"/>
+    </net>
+    <net code="49" name="COL14">
+      <node ref="U1" pin="16"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="50" name="COL15">
+      <node ref="U1" pin="13"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D50" pin="1"/>
+    </net>
+    <net code="51" name="GND">
+      <node ref="U1" pin="33"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="52" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="55" name="COL16">
+      <node ref="D35" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D86-Pad2)">
+      <node ref="SW83" pin="2"/>
+      <node ref="D86" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D84-Pad2)">
+      <node ref="SW81" pin="2"/>
+      <node ref="D84" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D85-Pad2)">
+      <node ref="D85" pin="2"/>
+      <node ref="SW82" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D74-Pad2)">
+      <node ref="D74" pin="2"/>
+      <node ref="SW71" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D71-Pad2)">
+      <node ref="D71" pin="2"/>
+      <node ref="SW68" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D72-Pad2)">
+      <node ref="D72" pin="2"/>
+      <node ref="SW69" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D73-Pad2)">
+      <node ref="SW70" pin="2"/>
+      <node ref="D73" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D75-Pad2)">
+      <node ref="D75" pin="2"/>
+      <node ref="SW72" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D66-Pad2)">
+      <node ref="D66" pin="2"/>
+      <node ref="SW63" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D67-Pad2)">
+      <node ref="D67" pin="2"/>
+      <node ref="SW64" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D68-Pad2)">
+      <node ref="SW65" pin="2"/>
+      <node ref="D68" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D69-Pad2)">
+      <node ref="SW66" pin="2"/>
+      <node ref="D69" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D70-Pad2)">
+      <node ref="SW67" pin="2"/>
+      <node ref="D70" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D81-Pad2)">
+      <node ref="D81" pin="2"/>
+      <node ref="SW78" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D79-Pad2)">
+      <node ref="D79" pin="2"/>
+      <node ref="SW76" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D80-Pad2)">
+      <node ref="D80" pin="2"/>
+      <node ref="SW77" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D82-Pad2)">
+      <node ref="D82" pin="2"/>
+      <node ref="SW79" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D83-Pad2)">
+      <node ref="D83" pin="2"/>
+      <node ref="SW80" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D76-Pad2)">
+      <node ref="SW73" pin="2"/>
+      <node ref="D76" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D77-Pad2)">
+      <node ref="SW74" pin="2"/>
+      <node ref="D77" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D78-Pad2)">
+      <node ref="D78" pin="2"/>
+      <node ref="SW75" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D27-Pad2)">
+      <node ref="SW24" pin="2"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="SW21" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D25-Pad2)">
+      <node ref="SW22" pin="2"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D26-Pad2)">
+      <node ref="SW23" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="SW25" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="SW26" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D20-Pad2)">
+      <node ref="SW17" pin="2"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D21-Pad2)">
+      <node ref="SW18" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="SW20" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D35-Pad2)">
+      <node ref="SW32" pin="2"/>
+      <node ref="D35" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D30-Pad2)">
+      <node ref="SW27" pin="2"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="SW28" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D32-Pad2)">
+      <node ref="SW29" pin="2"/>
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D33-Pad2)">
+      <node ref="SW30" pin="2"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D34-Pad2)">
+      <node ref="SW31" pin="2"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D10-Pad2)">
+      <node ref="SW7" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D13-Pad2)">
+      <node ref="SW10" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D14-Pad2)">
+      <node ref="SW11" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D5-Pad2)">
+      <node ref="SW2" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D6-Pad2)">
+      <node ref="SW3" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="SW16" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="SW12" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D17-Pad2)">
+      <node ref="SW14" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D54-Pad2)">
+      <node ref="SW51" pin="2"/>
+      <node ref="D54" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2"/>
+      <node ref="SW52" pin="2"/>
+    </net>
+    <net code="112" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2"/>
+      <node ref="SW53" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2"/>
+      <node ref="SW54" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D58-Pad2)">
+      <node ref="SW55" pin="2"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="115" name="Net-(D59-Pad2)">
+      <node ref="SW56" pin="2"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D52-Pad2)">
+      <node ref="SW49" pin="2"/>
+      <node ref="D52" pin="2"/>
+    </net>
+    <net code="117" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2"/>
+      <node ref="SW50" pin="2"/>
+    </net>
+    <net code="118" name="Net-(D64-Pad2)">
+      <node ref="D64" pin="2"/>
+      <node ref="SW61" pin="2"/>
+    </net>
+    <net code="119" name="Net-(D65-Pad2)">
+      <node ref="D65" pin="2"/>
+      <node ref="SW62" pin="2"/>
+    </net>
+    <net code="120" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2"/>
+      <node ref="SW59" pin="2"/>
+    </net>
+    <net code="121" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2"/>
+      <node ref="SW57" pin="2"/>
+    </net>
+    <net code="122" name="Net-(D61-Pad2)">
+      <node ref="SW58" pin="2"/>
+      <node ref="D61" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D63-Pad2)">
+      <node ref="SW60" pin="2"/>
+      <node ref="D63" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+      <node ref="SW35" pin="2"/>
+    </net>
+    <net code="125" name="Net-(D39-Pad2)">
+      <node ref="SW36" pin="2"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="SW37" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+      <node ref="SW38" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D42-Pad2)">
+      <node ref="SW39" pin="2"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="129" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2"/>
+      <node ref="SW40" pin="2"/>
+    </net>
+    <net code="130" name="Net-(D36-Pad2)">
+      <node ref="SW33" pin="2"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="131" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2"/>
+      <node ref="SW34" pin="2"/>
+    </net>
+    <net code="132" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="SW48" pin="2"/>
+    </net>
+    <net code="133" name="Net-(D49-Pad2)">
+      <node ref="SW46" pin="2"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D50-Pad2)">
+      <node ref="SW47" pin="2"/>
+      <node ref="D50" pin="2"/>
+    </net>
+    <net code="135" name="Net-(D44-Pad2)">
+      <node ref="SW41" pin="2"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="136" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="SW42" pin="2"/>
+    </net>
+    <net code="137" name="Net-(D46-Pad2)">
+      <node ref="SW43" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="138" name="Net-(D47-Pad2)">
+      <node ref="SW44" pin="2"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="139" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="SW45" pin="2"/>
+    </net>
+  </nets>
+</export>
