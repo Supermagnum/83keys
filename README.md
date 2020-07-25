@@ -3,8 +3,9 @@ A 83 key keyboard, Norwegian QWERTY/DVORAK ISO style.
 MX switches should fit.
 It uses 83 1N4004-TP diodes and three LED's for caps lock,scroll lock, and QWERTY/DVORAK.
 It also needs pin headers that accepts the pins from a Teensy++2.0.
+
 That makes it easy to replace the Teensy in the case that something goes wrong.
-The connectors shield provides DC ground, and ground for the LED's. 
+
 
 The keyboard layout is located here:
 http://www.keyboard-layout-editor.com/#/gists/53284f72c23040b29def237b7399e567
