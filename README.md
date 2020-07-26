@@ -2,7 +2,7 @@
 A 83 key keyboard, Norwegian QWERTY/DVORAK ISO style.
 It's of course possible to use other languages, as the MX cherry switches will accept keycaps with whatever language you need.
 
-It uses 83 1N4004-TP diodes and three LED's for caps lock,scroll lock, and QWERTY/DVORAK.
+It uses 83 1N4148 diodes and three LED's for caps lock,scroll lock, and QWERTY/DVORAK.
 It also needs pin headers that accepts the pins from a Teensy++2.0.
 
 That makes it easy to replace the Teensy in the case that something goes wrong.
